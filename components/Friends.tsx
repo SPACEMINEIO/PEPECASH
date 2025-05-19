@@ -108,7 +108,7 @@ export default function Friends() {
       ? `https://t.me/PEPECASHGames_bot/${process.env.NEXT_PUBLIC_APP_URL_SHORT_NAME}?startapp=kentId${userTelegramId || ""}`
       : "https://t.me/clicker_game_news";
 
-    const shareText = `🎮 Join me in SPACEPEPECASH: Tap, Earn, and Win! 🏆\n🚀 Let's play and earn together!`;
+    const shareText = `🎮 Join me in PEPECASH: Tap, Earn, and Win! 🏆\n🚀 Let's play and earn together!`;
 
     try {
       triggerHapticFeedback(window);
